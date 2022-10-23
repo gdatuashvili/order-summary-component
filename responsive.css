@@ -1,0 +1,51 @@
+/* .start {
+ margin-top: 20px;
+} */
+/* .body {
+ background-image: url('./img/pattern-background-mobile.svg');
+} */
+
+
+/* 0px - 768px-მდე არის width: 327px */
+
+
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: #E0E7FF;
+        background-image: url('./img/pattern-background-desktop.svg');
+    }
+    .card {
+        width: 450px;
+        /* border: 2px solid black; */
+    }
+    .h2_p_anual_submits-container {
+        width: 354px;
+    }
+    .h2_p {
+        margin-top: 38px;
+    }
+    .annual-plan-parent {
+        width: 354px;
+    }
+    .proceed_cancel {
+        width: 354px;
+    }
+
+} 
+
+@media only screen and (min-width: 1440px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
